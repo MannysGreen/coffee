@@ -1,0 +1,75 @@
+    
+    h1{
+        font-family: fantasy;
+        font-style: italic;
+        font-weight: bold;
+        color: brown; 
+        text-align: center;
+        }
+    h2,h3{
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    color: darkblue; 
+    text-align: left;
+    }
+    p{
+    text-align: justify;
+    }  
+    body{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    nav ul{
+    list-style-type: none;
+    }
+    nav li{
+    display: inline;
+    float: left;
+    }
+    nav a:link, nav a:visited{
+    background-color: rgb(148, 29, 29);
+    color: rgb(236, 9, 168);
+    width: 140px;
+    height: 30;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    }
+    nav a:hover{
+    color: black;
+    }
+    li{
+    list-style-image: url("images/tiny-coffee-cup.gif");
+    font-weight: bold;
+    }
+    #quote{
+    width: 280px;
+    font-weight: bold;
+    float: right;
+    padding: 5px;
+    margin-left: 15px;
+    height: 280px;
+    overflow: scroll;
+    background-color: brown;
+    color: wheat;
+    text-align: center;
+    }
+    #wiki{
+    font-weight: bold;
+    text-decoration: underline;
+    }
+    header{
+    background-image: url("images/coffee-beans.jpg");
+    height: 100px;
+    width: 960px;
+    margin-bottom: ;
+    }
+    footer{
+    background-image: url("images/coffee-beans.jpg");
+    height: 100px;
+    width: 960px; 
+     }
