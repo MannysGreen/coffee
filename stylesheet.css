@@ -1,75 +1,131 @@
     
     h1{
-        font-family: fantasy;
-        font-style: italic;
-        font-weight: bold;
-        color: brown; 
-        text-align: center;
-        }
+         font-family: fantasy;
+         font-style: italic;
+         font-weight: bold;
+         color: brown; 
+         text-align: center;
+    }
     h2,h3{
-    font-family: fantasy;
-    font-style: italic;
-    font-weight: bold;
-    color: darkblue; 
-    text-align: left;
+         font-family: fantasy;
+         font-style: italic;
+         font-weight: bold;
+         color: brown; 
+         text-align: left;
     }
     p{
-    text-align: justify;
+         text-align: justify;
     }  
     body{
-    width: 960px;
-    background-color: white;
-    margin: 0 auto;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+         width: 960px;
+         background-color: rgba(171, 166, 180, 0.527);
+         margin: 0 auto;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
     }
     nav ul{
-    list-style-type: none;
+         list-style-type: none;
+         padding: 0;
     }
     nav li{
-    display: inline;
-    float: left;
+         display: inline;
+         float: left;
     }
     nav a:link, nav a:visited{
-    background-color: rgb(148, 29, 29);
-    color: rgb(236, 9, 168);
-    width: 140px;
-    height: 30;
-    display: block;
-    text-align: center;
-    font-weight: bolder;
+        text-decoration: none;
+         background-color: rgb(148, 29, 29);
+         color: white;
+         width: 160px;
+         display: block;
+         text-align: center;
+         font-weight: bolder;
+         padding: 5px 0;
     }
     nav a:hover{
-    color: black;
+         color: black;
     }
     li{
-    list-style-image: url("images/tiny-coffee-cup.gif");
-    font-weight: bold;
+         list-style-image: url("images/tiny-coffee-cup.gif");
+         font-weight: bold;
     }
     #quote{
-    width: 280px;
-    font-weight: bold;
-    float: right;
-    padding: 5px;
-    margin-left: 15px;
-    height: 280px;
-    overflow: scroll;
-    background-color: brown;
-    color: wheat;
-    text-align: center;
+         width: 280px;
+         font-weight: bold;
+         float: left;
+         padding: 5px;
+         margin-right: 15px;
+         height: 250px;
+         overflow:auto;
+         background-color: brown;
+         color: wheat;
+         text-align: center;
     }
     #wiki{
-    font-weight: bold;
-    text-decoration: underline;
+         font-weight: bold;
+         text-decoration: underline;
     }
     header{
-    background-image: url("images/coffee-beans.jpg");
-    height: 100px;
-    width: 960px;
-    margin-bottom: ;
+         background-image: url("images/coffee-beans.jpg");
+         height: 100px;
+         width: 960px;
     }
     footer{
-    background-image: url("images/coffee-beans.jpg");
-    height: 100px;
-    width: 960px; 
+         background-image: url("images/coffee-beans.jpg");
+         height: 100px;
+         width: 960px;
+     }
+     footer nav a:link, footer nav a:visited{
+     text-decoration: none;
+         background-color: rgb(165, 42, 42,.5);
+         color: rgb(88, 67, 67);
+         width: 160px;
+         display: block;
+         text-align: center;
+         font-weight: bolder;
+         padding: 5px 0;
+     }
+    footer nav a:hover{
+         color: rgb(0, 0, 0, .7);
+    }
+     header h1{
+         text-align: left;
+         padding-left: 25px;
+     }
+     footer h1{
+         text-align: left;
+         padding-right: 25px;
+         padding-top: 40px;
+     }
+     header h1{
+         text-align: left;
+         padding-left: 25px;
+     }
+     table, td, th{
+         border: 1px solid brown;
+         border-spacing: 0;
+     }
+     td, th{
+         width: 20%;
+         padding: 5px;
+         text-align: center;
+     }
+     th{
+         height: 30px;
+         text-align: right;
+         vertical-align: top;
+         padding-right: 5px;
+         padding-top: 10px;
+     }
+     thead{
+         background-color: rgb(179, 180, 231);
+     }
+     tbody{
+         background-color:rgb(209, 162, 162);
+     }
+     tfoot{
+         background-color: rgb(209, 162, 162);
+     }
+     caption{
+         font-weight: bold;
+         font-size:large;
      }

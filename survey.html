@@ -8,52 +8,92 @@
 </head>
 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 <style>
-#block1{
-width: 800px;
-margin: 10px;
-}
+  label{
+    width: 200px;
+    text-align: left;
+    margin: 20px 10px;
+  }
+  #sub{
+    float: right;
+    margin-right: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgba(17, 5, 36, 0.897);
+  }
+  input, select, textarea{
+    margin: 20px 10px;
+    vertical-align: middle;
+    text-align: left;
+    background-color: rgb(223, 217, 217);
+  }
 </style>
 <body>
-    <header>
-        <h1 style="color:white; text-decoration: underline; font-family: Verdana, Geneva, Tahoma, sans-serif;">MANNY'S COFFEE BLOG</h1>
-        <nav>
+  <header>
+         <h1 style="color:rgba(256,256,256,.8); font-family: Verdana, Geneva, Tahoma, sans-serif;">MANNY'S COFFEE BLOG</h1>
+      <nav>
         <ul>
-           <li><a href="index.html">HOME</a></li>
-           <li><a href="brewing.html">BREWING</a></li>
-           <li><a href="drinks.html">DRINKS</a></li>
-           <li><a href="grinding.html">GRINDING</a></li>
-           <li><a href="roasting.html">ROASTING</a></li>
-           <li><a href="survey.html">SURVEY</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="brewing.html">BREWING</a></li>
+            <li><a href="drinks.html">DRINKS</a></li>
+            <li><a href="grinding.html">GRINDING</a></li>
+            <li><a href="roasting.html">ROASTING</a></li>
+            <li><a href="survey.html">SURVEY</a></li>
         </ul>
-        </nav>
-        </header>
+      </nav>
+  </header>
+          <br></br>
+      <h1>Coffee Survey</h1>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+      <label>First Name</label></br>
+      <input type="text" name="first-name"  autofocus required size="40"/>
+      <br>
+      <label>Email Address</label></br>
+      <input type="email" name="email" required placeholder="enter your email address" size="40"/>
+      <br>
+      <label>Phone No</label></br>
+      <input type="number" name="contact" placeholder="+234" required size="40"/>
+      <br>
+      <label>Date Of Birth</label></br>
+      <input type="date" name="date of birth" placeholder="optional" size="40"/>
+      <br>
+      </fieldset>
+      <fieldset>
         <br></br>
-Coffee Survey
-
-Your Name
-
-Email Address
-
-Tell us your coffee preparation methods.
-
-Do you grind your own beans?
-yes
-no
-
-How do you drink your coffee?
-with sugar
-with cream
-
-What is your favorite coffee drink?
-
-please select a drink
-drip coffee
-french press
-espresso
-latte
-flavored
+      <legend>Coffe Preferences</legend>
+      <label>Tell Us Your Coffee Preparation Methods</label>
+      </br>
+      <textarea name="message" rows="7" cols="40">Type Here</textarea>
+      <br></br>
+      <label>Do You Grind Your Own Beans?</label>
+      </br>
+      <input type="radio" name="radio" value="yes"/>Yes
+      <input type="radio" name="radio" value="no"/>No
+      <br></br>
+      <label>How You Drink Your Coffee?</label>
+      </br>
+      <input type="checkbox" name="check" value="sugar"/>With Sugar
+      <input type="checkbox" name="check" value="cream"/>With cream
+      <br></br>
+      <label>What Is Your Favorite Coffee Drink?</label>
+      </br>
+      <select name="dropdown">
+      <option value="">Please Select A Drink</option>
+      <option value="drip coffee">drip coffee</option>
+      <option value="french press">french press</option>
+      <option value="espresso">espresso</option>
+      <option value="latte">latte</option>
+      <option value="flavoured">flavoured</option>
+      </select>
+      <br></br></br>
+      <input id="sub" type="submit" value="SUBMIT"/>
+      <br></br>
+      </fieldset>
+      </form>
 <footer>
-    <h1 style="color:white; text-decoration: underline; font-family: Verdana, Geneva, Tahoma, sans-serif;">MANNY'S COFFEE BLOG</h1>
+    <h1 style="color:rgba(256,256,256,.8); font-family: Verdana, Geneva, Tahoma, sans-serif;">MANNY'S COFFEE BLOG</h1>
   <nav>
     <ul>
        <li><a href="index.html">HOME</a></li>
